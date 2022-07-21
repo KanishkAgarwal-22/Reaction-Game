@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+.title {
+    font-family: 'Orbitron';
+    font-size: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hr {
+    max-width: 100vw;
+    max-height: 1cm;
+    margin-bottom: 10px;
+}
+
+.start-game {
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    border: 3px #fff dashed;
+    max-width: 400px;
+    min-height: 20px;
+    padding: 20px;
+    position: absolute;
+    left: 38%;
+    top: 38%;
+}
